@@ -37,10 +37,3 @@ def print_confusion_matrix(confusion_matrix, n_classes):
         for j in range(n_classes):
             s += str(output[j * n_classes + i]) + " "
         print(s)
-
-
-
-
-
-
-
