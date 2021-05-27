@@ -8,8 +8,3 @@ def parse(path):
         for element in reader:
             data.append(element)
     return data
-
-
-
-
-
